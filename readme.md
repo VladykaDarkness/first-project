@@ -97,3 +97,8 @@ flowchart TD
 	D -- git add --> B[staged];
 	B -- изменения --> D[modified];
 ```
+
+**git status** показывает следующие состояния файлов:
+* staged (Changes to be committed в выводе git status);
+* modified (Changes not staged for commit);
+* untracked (Untracked files).
